@@ -47,6 +47,8 @@ Settings:
 ]
 ```
 
+Debbuging: <https://github.com/renkun-ken/vscode-rcpp-demo>
+
 ## Path Autocomplete
 
 [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete)
