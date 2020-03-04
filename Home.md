@@ -8,7 +8,7 @@ vscode-R is the R Extension for Visual Studio Code.
 * Run code in terminal containing existing R session, for example over SSH (`Run Selection/Line in Active Terminal`)
 * Run all commands in terminal containing existing R session (enable config `r.alwaysUseActiveTerminal`)
 * Extended Syntax (R, R Markdown, R Documentation)
-* Create `.gitignore` based [R.gitignore](https://github.com/github/gitignore/raw/master/R.gitignore)
+* Create `.gitignore` based on [R.gitignore](https://github.com/github/gitignore/raw/master/R.gitignore)
 * Data frame viewer and Environment viewer(`Preview Data frame` or `Preview Environment`)
 * Snippets
 * Package development shortcuts (`Load All`, `Test Package`, `Install Package`, `Build Package` and `Document`)
