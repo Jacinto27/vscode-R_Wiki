@@ -4,7 +4,7 @@ For many R users, [RStudio](https://github.com/rstudio/rstudio) has long been a 
 
 This vscode-R extension is a front-end extension that attempts to make it easier to work with R sessions interactively in VSCode. It is not intended to be a drop-in replacement of RStudio yet could be found useful by those who want a unified development environment to work with multiple programming languages such as R, Python, C++, etc., and those who need to work with self-managed R sessions or multiple R sessions at the same time.
 
-To make VSCode a better code editor for R, we recommend that you install all the following packages:
+To make VSCode a better development environment for R, we recommend that you install all the following packages:
 
 * [vscode-R](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r): Provides extended syntax for R and R Markdown and interactivity between VSCode and R terminal.
 * [languageserver](https://github.com/REditorSupport/languageserver): An R package that implements the Language Server Protocol for R to provide a wide range of language analysis features such as auto-completion, function signature, documentation, symbol highlight, document outline, code formatting, symbol hover, diagnostics, etc.
