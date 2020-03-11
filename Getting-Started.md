@@ -2,7 +2,7 @@ For many R users, [RStudio](https://github.com/rstudio/rstudio) has long been a 
 
 [VSCode](https://code.visualstudio.com/), in contrast, is not specifically designed for a certain programming language. It is highly customizable through [settings](https://code.visualstudio.com/docs/getstarted/settings), and highly extensive through [extensions](https://marketplace.visualstudio.com/). It supports many programming languages at different levels through language extensions that implement some common protocols such as the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) to enable language features based on code analysis such as *Go To Definition* and *Rename symbol*, and the [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol/) to enable interactive debugging of any target.
 
-This vscode-R extension is a front-end extension that attempts to make it easier to work with R sessions interactively in VSCode. It is not intended to be a drop-in replacement of RStudio yet could be found useful for those who want a unified development environment to work with multiple programming languages including R, and who need to work with self-managed R sessions or multiple R sessions at the same time.
+This vscode-R extension is a front-end extension that attempts to make it easier to work with R sessions interactively in VSCode. It is not intended to be a drop-in replacement of RStudio yet could be found useful by those who want a unified development environment to work with multiple programming languages including R, and those who need to work with self-managed R sessions or multiple R sessions at the same time.
 
 To make VSCode a better code editor for R, we recommend that you install all the following packages:
 
