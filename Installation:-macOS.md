@@ -2,7 +2,7 @@
 
 Install [vscode-R](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r) in VSCode by searching `ikuyadeu.r` in extension market place.
 
-If the R installation is from [CRAN](http://cran.r-project.org/mirrors.html), then the default settings should work out of the box. Otherwise, you may have to change `r.rterm.mac` to the path to your R executable, which will be executed on command `Create R Terminal`.
+If your R installation is from [CRAN](http://cran.r-project.org/mirrors.html), then the default settings should work out of the box. Otherwise, you may have to change `r.rterm.mac` to the path to your R executable, which will be executed on command `Create R Terminal`.
 
 If you are interested in the experimental features provided by [R session watcher](https://github.com/Ikuyadeu/vscode-R/wiki/R-Session-watcher), you may enable it in the VSCode settings:
 
