@@ -34,6 +34,8 @@ or install the development version with the newest features:
 remotes::install_github("REditorSupport/languageserver")
 ```
 
+which requires [Rtools](https://cran.r-project.org/bin/windows/Rtools/) to build.
+
 # 3. vscode-r-lsp
 
 Install [vscode-r-lsp](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r-lsp) in VSCode by searching `reditorsupport.r-lsp` in extension market place.
