@@ -58,7 +58,7 @@ pip install -U radian
 
 Then the following VSCode settings should be updated to properly use radian as the default terminal. If your `radian` is installed only for `user`:
 
-```json
+```
 {
   "r.bracketedPaste": true,
   "r.rterm.windows": "C:\Users\user\AppData\Local\Programs\Python\Python38\Scripts\radian.exe"
