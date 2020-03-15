@@ -48,7 +48,7 @@ Since radian is built with python, we need to install python first. Note that ra
 
 <img width="668" alt="image" src="https://user-images.githubusercontent.com/4662568/76701270-be5f5f80-66fa-11ea-8a4d-21eb86c6a1ff.png">
 
-**Add Python 3.x to PATH**
+Make sure **Add Python 3.x to PATH** is selected.
 
 Then start a command prompt or Windows PowerShell terminal and type in the following command to install `radian` via `pip`:
 
