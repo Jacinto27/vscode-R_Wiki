@@ -64,7 +64,7 @@ To locate the path to `radian.exe`, run the following command:
 where.exe radian
 ```
 
-Then the following VSCode settings should be updated to properly use radian as the default terminal. Put the path to `radian.exe` in `r.rterm.windows` with all `\` replaced with `\\`. For example, if your `radian` is installed only for `user`:
+Then the following VSCode settings should be updated to properly use radian as the default terminal. Put the path to `radian.exe` in `r.rterm.windows` with all `\` replaced with `\\`. For example, if your `radian` is installed for `user`:
 
 ```json
 {
