@@ -48,7 +48,7 @@ If the R installation is from [CRAN](http://cran.r-project.org/mirrors.html) as 
 
 Since radian is built with python, we need to install python first. Note that radian does not work with the python distributed by Microsoft Store ([radian#120](https://github.com/randy3k/radian/issues/120)), we need to install the official version. Go to [Python Releases for Windows](https://www.python.org/downloads/windows/) and download the latest executable installer, e.g. [Windows x86-64 executable installer](https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe).
 
-<img width="668" alt="image" src="https://user-images.githubusercontent.com/4662568/76701270-be5f5f80-66fa-11ea-8a4d-21eb86c6a1ff.png">
+<img width="670" alt="image" src="https://user-images.githubusercontent.com/4662568/76701870-219fc080-6700-11ea-8487-18ab880dab88.png">
 
 Make sure **Add Python 3.x to PATH** is selected.
 
@@ -58,11 +58,17 @@ Then start a command prompt or Windows PowerShell terminal and type in the follo
 pip install -U radian
 ```
 
+To locate the path to `radian.exe`, run the following command:
+
+```sh
+where.exe radian
+```
+
 Then the following VSCode settings should be updated to properly use radian as the default terminal. If your `radian` is installed only for `user`:
 
 ```
 {
   "r.bracketedPaste": true,
-  "r.rterm.windows": "C:\Users\user\AppData\Local\Programs\Python\Python38\Scripts\radian.exe"
+  "r.rterm.windows": "C:\Users\user\AppData\Local\Programs\Python\Python37\Scripts\radian.exe"
 }
 ```
