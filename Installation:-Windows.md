@@ -52,7 +52,7 @@ Since radian is built with python, we need to install python first. Note that ra
 
 Make sure **Add Python 3.x to PATH** is selected.
 
-Then start a command prompt or Windows PowerShell terminal and type in the following command to install `radian` via `pip`:
+Then start a command prompt or Windows PowerShell terminal and type the following command to install `radian` via `pip`:
 
 ```sh
 pip install -U radian
