@@ -1,8 +1,12 @@
-vscode-R is the R Extension for Visual Studio Code.
-
-The extension is mainly focused on providing user interactivity between VSCode and R sessions. To make VSCode more powerful in R scripting, it is highly recommended to also install the R language server ([languageserver](https://github.com/REditorSupport/languageserver) and [vscode-r-lsp](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r-lsp)).
+vscode-R is the R Extension for [Visual Studio Code](https://code.visualstudio.com/). The extension is mainly focused on providing user interactivity between VSCode and R sessions. To make VSCode more powerful in R scripting, it is highly recommended to also install the R language server ([languageserver](https://github.com/REditorSupport/languageserver) and [vscode-r-lsp](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r-lsp)).
 
 Visit the links on the right for more information.
+
+This project won't be successful without contributions, especially the current and past key collaborators:
+
+* Kun Ren ([@renkun-ken](https://github.com/renkun-ken))
+* Andrew Craig ([@andycraig](https://github.com/andycraig))
+* Thomas Brittain ([@Ladvien](https://github.com/Ladvien))
 
 ## Features
 
