@@ -1,5 +1,17 @@
 Mainly for RStudio user to find similar editor features in VSCode
 
+## Dots in variable/function names
+
+Treat `names.like.this` as one word for selection etc.
+
+`settings.json`: 
+
+```
+"[r]": {
+    "editor.wordSeparators": "`~!@#%$^&*()-=+[{]}\\|;:'\",<>/?"
+}
+```
+
 ## C/C++
 
 [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) to write Rcpp
