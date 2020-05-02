@@ -31,12 +31,12 @@ This project won't be successful without contributions, especially the current a
 
 ## Extension Settings
 
-* `r.rterm.windows`: set to `R.exe` path for Windows
-* `r.rterm.mac`: set to R term's path for macOS
-* `r.rterm.linux`: set to R term's path for Linux
-* `r.rterm.option`: R command line options (i.e: `--vanilla`)
-* `r.source.encoding`: An optional encoding to pass to R when executing the file
-* `r.source.focus`: Keeping focus when running (editor or terminal)
-* `r.alwaysUseActiveTerminal`: Use active terminal for all commands, rather than creating a new R terminal
-* `r.bracketedPaste`: For consoles supporting bracketed paste mode (such as radian)
-* `r.sessionWatcher`: Enable R session watcher (experimental)
+* `r.rterm.windows`: R.exe path for windows.
+* `r.rterm.mac`: R path for Mac OS X.
+* `r.rterm.linux`: R path for Linux.
+* `r.rterm.option`: R command line options.
+* `r.source.encoding`: An optional encoding to pass to R when executing the file, i.e. `source(FILE, encoding=ENCODING)`.
+* `r.source.focus`: Keeping focus when running.
+* `r.alwaysUseActiveTerminal`: Use active terminal for all commands, rather than creating a new R terminal.
+* `r.bracketedPaste`: Use bracketed paste mode when sending code to console. Enable for Radian console.
+* `r.sessionWatcher`: Enable R session watcher (experimental). Restart required to take effect.
