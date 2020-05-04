@@ -2,6 +2,31 @@
 
 ## Customizing keyboard shortcuts
 
+## Suggested keyboard shortcuts
+
+Add to `keybindings.json`:
+
+```
+[
+    {
+        "key": "alt+-",
+        "command": "type",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": { "text": " <- " }
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "type",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": { "text": " %>% " }
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "-workbench.actions.view.problems"
+    }
+]
+```
+
 ## Creating keybindings for R commands
 
 There are 3 ways you can use extension functions to create keybindings that run R commands in the terminal:
