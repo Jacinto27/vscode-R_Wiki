@@ -10,6 +10,11 @@ npm install
 code .
 ```
 
+## Lint
+We use [eslint](https://eslint.org/) for linting our sources. You can run eslint across the sources by calling yarn eslint from a terminal or command prompt. 
+
+To lint the source as you make changes you can install the [eslint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
+
 ## Test
 
 * Press `F5` if you open this project by VS Code
