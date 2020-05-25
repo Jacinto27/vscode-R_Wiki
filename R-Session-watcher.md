@@ -10,6 +10,11 @@ An opt-in experimental R session watcher is implemented to support the following
 * Show plot output on update and plot history
 * Show htmlwidgets, documentation and shiny apps in WebView
 
+Known limitations:
+
+* Session watcher only works when the R session is started from the workspace folder in VSCode.
+* Session watcher may not work with folders under some cloud drives (e.g. Google Drive, OneDrive) but works with iCloud Drive on macOS.
+
 ### Basic usage
 
 To enable this feature, turn on `r.sessionWatcher` in VSCode settings, reload or restart VSCode, and the session watcher will be activated automatically
