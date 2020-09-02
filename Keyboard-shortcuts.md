@@ -27,6 +27,40 @@ Add to `keybindings.json`:
 ]
 ```
 
+## Old keyboard shortcuts
+
+These keyboard shortcuts used to be set by this extension, but were removed because they conflicted with default Visual Studio Code shortcuts. If you would like to restore them, add these to `keybindings.json`:
+
+```
+[
+    {
+        "command": "r.nrow",
+        "key": "Ctrl+1",
+        "when": "editorTextFocus && editorLangId == 'r'"
+    },
+    {
+        "command": "r.length",
+        "key": "Ctrl+2",
+        "when": "editorTextFocus && editorLangId == 'r'"
+    },
+    {
+        "command": "r.head",
+        "key": "Ctrl+3",
+        "when": "editorTextFocus && editorLangId == 'r'"
+    },
+    {
+        "command": "r.thead",
+        "key": "Ctrl+4",
+        "when": "editorTextFocus && editorLangId == 'r'"
+    },
+    {
+        "command": "r.names",
+        "key": "Ctrl+5",
+        "when": "editorTextFocus && editorLangId == 'r'"
+    }
+]
+```
+
 ## Creating keybindings for R commands
 
 There are 3 ways you can use extension functions to create keybindings that run R commands in the terminal:
