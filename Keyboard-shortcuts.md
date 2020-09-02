@@ -27,7 +27,7 @@ Add to `keybindings.json`:
 ]
 ```
 
-## Old keyboard shortcuts
+## Removed keyboard shortcuts
 
 These keyboard shortcuts used to be set by this extension, but were removed because they conflicted with default Visual Studio Code shortcuts. If you would like to restore them, add these to `keybindings.json`:
 
