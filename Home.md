@@ -12,7 +12,12 @@ This project won't be successful without contributions, especially the current a
 
 * Create R Integrated Terminal
 * Run Source/Selected Line
-* Run `nrow`, `length`, `head`, `thead`, `names` functions (`Ctrl` + `1`, `2`, `3`, `4`, `5`)
+* Run functions:
+  * `nrow` (`Show number of rows for selected object`)
+  * `length` (`Show length for a selected object`)
+  * `head` (`Show first part of a selected object`)
+  * `thead` (`Show first part of a selected object (transposed)`)
+  * `names` (`Show names for a selected object`)
 * Run code in active terminal containing existing R session, e.g. over SSH (`Run Selection/Line in Active Terminal`)
 * Run all commands in active terminal containing existing R session (enable config `r.alwaysUseActiveTerminal`)
 * Extended Syntax (R, R Markdown, R Documentation)
