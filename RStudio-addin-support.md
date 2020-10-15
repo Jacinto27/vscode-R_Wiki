@@ -30,9 +30,8 @@ To enable RStudio addin support set `options(vsc.rstudioapi = TRUE)` in your .Rp
 ## Installing addins
 
 Unlike RStudio the VSCode addin registry is regenrated every time a new R
-session is attached, not when a new package is installed. You can use
-`rstudioapi::restartSession()` to reattach the R session and repopulate
-installed addins.
+session is attached, not when a new package is installed. You can use the `.vsc.attach()` to re-attach an active R session, or 
+`rstudioapi::restartSession()` to restart the R session and repopulate installed addins.
 
 ## Shiny Gadgets
 
