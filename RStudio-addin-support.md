@@ -23,6 +23,9 @@ There are two main ways to launch an addin:
         "args": "reprex::reprex_selection"
     }
 ```
+## Enabling RStudio Addin Support
+
+To enable RStudio addin support set `options(vsc.rstudioapi = TRUE)` in your .Rprofile.
 
 ## Installing addins
 
