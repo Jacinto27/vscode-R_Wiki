@@ -1,4 +1,4 @@
-Mainly for RStudio user to find similar editor features in VSCode
+Mainly for RStudio users to find similar editor features in VSCode.
 
 ## Dots in variable/function names
 
@@ -71,3 +71,7 @@ Debbuging: <https://github.com/renkun-ken/vscode-rcpp-demo>
     "./": "${folder}"
 }
 ```
+
+## Error Lens
+
+[Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
