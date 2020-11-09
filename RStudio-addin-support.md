@@ -27,6 +27,8 @@ There are two main ways to launch an addin:
 
 To enable RStudio addin support set `options(vsc.rstudioapi = TRUE)` in your .Rprofile.
 
+Place the option above any call to `source()` that refers to `init.R` in the `.Rprofile`. Unless using self-managed R sessions, `init.R` should be called automatically by the extension.
+
 ## Installing addins
 
 Unlike RStudio the VSCode addin registry is regenrated every time a new R
