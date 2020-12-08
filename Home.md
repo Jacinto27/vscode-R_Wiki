@@ -8,6 +8,7 @@ This project won't be successful without contributions, especially the current a
 * Andrew Craig ([@andycraig](https://github.com/andycraig))
 * Thomas Brittain ([@Ladvien](https://github.com/Ladvien))
 * Miles McBain ([@MilesMcBain](https://github.com/MilesMcBain))
+* Manuel Hentschel ([@ManuelHentschel](https://github.com/ManuelHentschel))
 
 ## Features
 
