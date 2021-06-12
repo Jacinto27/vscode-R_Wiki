@@ -9,6 +9,7 @@ This project won't be successful without contributions, especially the current a
 * Thomas Brittain ([@Ladvien](https://github.com/Ladvien))
 * Miles McBain ([@MilesMcBain](https://github.com/MilesMcBain))
 * Manuel Hentschel ([@ManuelHentschel](https://github.com/ManuelHentschel))
+* Elian H. Thiele-Evans ([@ElianHugh](https://github.com/ElianHugh))
 
 ## Features
 
