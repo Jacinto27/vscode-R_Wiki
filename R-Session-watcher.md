@@ -76,7 +76,7 @@ options(vsc.globalenv = TRUE | FALSE)
 # Which view column to show the plot file on graphics update
 # Use FALSE to diable plot watcher so that the default R plot device is used.
 # Only specify in .Rprofile since it only takes effect on session startup.
-options(vsc.plot = "Two" | "Active" | "Besides" | FALSE)
+options(vsc.plot = "Two" | "Active" | "Beside" | FALSE)
 
 # The arguments for the png device to replay user graphics to show in VSCode.
 # Ignored if options(vsc.plot = FALSE).
@@ -84,20 +84,40 @@ options(vsc.dev.args = NULL | list(width = 800, height = 600))
 
 # Which view column to show the WebView triggered by browser (e.g. shiny apps)?
 # Use FALSE to open in external web browser.
-options(vsc.browser = "Active" | "Besides" | "Two" | FALSE)
+options(vsc.browser = "Active" | "Beside" | "Two" | FALSE)
 
 # Which view column to show the WebView triggered by viewer (e.g. htmlwidgets)?
 # Use FALSE to open in external web browser.
-options(vsc.viewer = "Two" | "Active" | "Besides" | FALSE)
+options(vsc.viewer = "Two" | "Active" | "Beside" | FALSE)
 
 # Which view column to show the WebView triggered by page_viewer (e.g. profvis)?
 # Use FALSE to open in external web browser.
-options(vsc.page_viewer = "Active" | "Besides" | "Two" | FALSE)
+options(vsc.page_viewer = "Active" | "Beside" | "Two" | FALSE)
 
 # Which view column to show the WebView triggered by View()?
 # Use FALSE for R's native View(), which should be specified in .Rprofile
 #   since it only takes effect on session startup.
-options(vsc.view = "Two" | "Active" | "Besides" | FALSE)
+options(vsc.view = "Two" | "Active" | "Beside" | FALSE)
+
+# Which view column to show the WebView triggered by help panel
+# (e.g. after sending `?mean` to terminal)?
+# Use FALSE to disable help panel and revert to old behaviour.
+options(vsc.helpPanel = "Two" | "Active" | "Beside" | FALSE)
+
+# How much of the object to show on hover and autocomplete detail?
+# As controlled by max.level arg of str().
+# Use 0 (or 1) is the default - literal value or object type and dimensions
+# Use 2 to show list contents, data frame columns, and example values.
+options(vsc.str.max.level = 0 | 2 )
+
+# Show object size in the workspace viewer tooltip
+# The R session could become laggy if there are large character vectors in
+#   objects in the global environment when this option is `TRUE`.
+options(vsc.show_object_size = FALSE | TRUE)
+
+# Use the httpgd-based plot viewer.
+# Requires the R package `httpgd` to be installed.
+options(vsc.use_httpgd = FALSE | TRUE)
 ```
 
 The first values are the default and all subsequent values after `|` are available choices.
