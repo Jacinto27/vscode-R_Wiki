@@ -2,16 +2,6 @@ vscode-R is the R Extension for [Visual Studio Code](https://code.visualstudio.c
 
 Visit the links on the right for more information.
 
-This project won't be successful without contributions, especially the current and past key collaborators:
-
-* Kun Ren ([@renkun-ken](https://github.com/renkun-ken))
-* Andrew Craig ([@andycraig](https://github.com/andycraig))
-* Thomas Brittain ([@Ladvien](https://github.com/Ladvien))
-* Miles McBain ([@MilesMcBain](https://github.com/MilesMcBain))
-* Manuel Hentschel ([@ManuelHentschel](https://github.com/ManuelHentschel))
-* Elian H. Thiele-Evans ([@ElianHugh](https://github.com/ElianHugh))
-
-
 ## Features
 
 * Extended syntax highlighting for R, R Markdown, and R Documentation.
