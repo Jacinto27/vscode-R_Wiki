@@ -1,6 +1,4 @@
-[Live Share](https://code.visualstudio.com/learn/collaboration/live-share)
-
-The session watcher further enhances LiveShare collaboration.
+The session watcher further enhances [Live Share](https://code.visualstudio.com/learn/collaboration/live-share) collaboration.
 The workspace viewer, data view, plots, and browsers are available to guests through the host session.
 To enable this feature, *both* the host and guest must have this extension and session watcher enabled.
 
