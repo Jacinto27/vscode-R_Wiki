@@ -13,3 +13,7 @@
 ## Browser viewer
 
 <img width="1268" alt="browser-viewer" src="https://user-images.githubusercontent.com/4662568/122426137-9415e500-cfc2-11eb-82f4-c74ce52cef13.png">
+
+## Help viewer
+
+<img width="1268" alt="help-viewer" src="https://user-images.githubusercontent.com/4662568/122426765-18686800-cfc3-11eb-9e28-a9a7cf1eaa95.png">
