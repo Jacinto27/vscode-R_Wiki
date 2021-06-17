@@ -1,4 +1,4 @@
-# vscode-R
+## vscode-R
 
 Install [vscode-R](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r) in VS Code by searching `ikuyadeu.r` in extension marketplace.
 
@@ -12,7 +12,7 @@ If you are interested in the experimental features provided by [R session watche
 }
 ```
 
-# languageserver
+## languageserver
 
 [languageserver](https://github.com/REditorSupport/languageserver) is an implementation of the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) for R.
 
@@ -30,13 +30,13 @@ or install the development version with the newest features:
 remotes::install_github("REditorSupport/languageserver")
 ```
 
-# vscode-r-lsp
+## vscode-r-lsp
 
 Install [vscode-r-lsp](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r-lsp) in VS Code by searching `reditorsupport.r-lsp` in extension marketplace.
 
 If the R installation is from [CRAN](http://cran.r-project.org/mirrors.html), then the default settings should work out of the box. Otherwise, you may have to change `r.lsp.path` to the path to your R executable, which will be executed to start the R Language Server as a background process.
 
-# 4. radian
+## radian
 
 [radian](https://github.com/randy3k/radian) is highly recommended as the R terminal for interactive use. It requires Python which should be available on macOS out of the box.
 
