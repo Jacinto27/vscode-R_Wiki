@@ -1,14 +1,12 @@
-# Contributing to vscode-r
-
 ## Install
 
-1. install npm and Node.js
-1. install Visual Studio Code
+1. Install yarn and Node.js
+1. Install Visual Studio Code
 
 ```sh
 git clone https://github.com/Ikuyadeu/vscode-R.git
 cd vscode-R
-npm install # install required packages for vscode-R
+yarn # install required packages for vscode-R
 code . # run VS Code
 ```
 
@@ -19,13 +17,14 @@ code . # run VS Code
 * A new VS Code window should open, with '[Extension Development Host]' in the title bar. This is running your modified version of vscode-R
 
 ## Lint
+
 We use [eslint](https://eslint.org/) for linting our sources. You can run eslint across the sources by calling yarn eslint from a terminal or command prompt. 
 
-To lint the source as you make changes you can install the [eslint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
+To lint the source as you make changes, you can install the [eslint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
 
 ## Pull Request
 
-* Fork it(via GitHub) in your account
+* Fork it (via GitHub) in your account
 * Add your project URL
 
 ```sh
@@ -50,4 +49,4 @@ git commit -am 'Add some feature'
 git push mine my-new-feature
 ```
 
-* Create new Pull Request(via GitHub)
+* Create new Pull Request (via GitHub)
