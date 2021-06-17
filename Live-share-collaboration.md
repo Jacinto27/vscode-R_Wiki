@@ -7,3 +7,5 @@ Hosts can control the level of access guests have through the provided Live Shar
 * Whether guests can access the current R session and its workspace
 * Whether R commands should be forwarded from the guest to the host terminal (bypasses terminal permissions)
 * Whether opened R browsers should be shared with guests
+
+![liveshare-demo](https://user-images.githubusercontent.com/4662568/122426342-c1fb2980-cfc2-11eb-8a49-b596c3bfd1c7.gif)
