@@ -19,7 +19,8 @@ This extension contributes the following settings:
   * Hover on the buttons to show tooltips.
   * CodeLens commands are customizable via settings UI (Rmarkdown: Code Lens commands) or settings.json `r.rmarkdown.codeLensCommands`
   </details>
-* `r.rmarkdown.codeLensCommands`: Customize RMarkdown CodeLens, which are inline commands/buttons e.g. 'Run Chunk | Run Above' shown on the first line of each code chunk. <details>
+* `r.rmarkdown.codeLensCommands`: Customize RMarkdown CodeLens, which are inline commands/buttons e.g. 'Run Chunk | Run Above' shown on the first line of each code chunk.
+  <details>
     <summary>Details</summary>
     Available commands:
 
@@ -42,7 +43,7 @@ This extension contributes the following settings:
   </details>
 * `r.rmarkdown.chunkBackgroundColor:` RMarkdown chunk background color in RGBA or RGB value.
   <details>
-  <summary>Details</summary>
+    <summary>Details</summary>
     Defaults to rgba(128, 128, 128, 0.1). Leave it empty to disable it (use default editor background color). Reload VS Code after changing settings. Learn how to set colors: https://www.w3schools.com/css/css_colors_rgb.asp
     <br><br>
 
