@@ -34,7 +34,7 @@ remotes::install_github("REditorSupport/languageserver")
 
 Install [vscode-r-lsp](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r-lsp) in VS Code by searching `reditorsupport.r-lsp` in extension marketplace.
 
-If the R installation is from [CRAN](http://cran.r-project.org/mirrors.html), then the default settings should work out of the box. Otherwise, you may have to change `r.rpath.*` to the path to your R executable, which will be executed to start the R Language Server as a background process.
+If the R installation is from [CRAN](http://cran.r-project.org/mirrors.html), then the default settings should work out of the box. Otherwise, you may have to change `r.rpath.linux` to the path to your R executable, which will be executed to start the R Language Server as a background process.
 
 ## radian
 
