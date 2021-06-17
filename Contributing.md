@@ -6,7 +6,7 @@
 ```sh
 git clone https://github.com/Ikuyadeu/vscode-R.git
 cd vscode-R
-yarn # install required packages for vscode-R
+yarn install # install required packages for vscode-R
 code . # run VS Code
 ```
 
