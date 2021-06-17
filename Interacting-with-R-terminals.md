@@ -4,11 +4,11 @@ In VS Code window, press <kbd>F1</kbd> (or <kbd>Ctrl + Shift + P</kbd>) and choo
 
 By default, the official `R` terminal is launched.
 
-![R](https://user-images.githubusercontent.com/4662568/122362388-ad9b3a80-cf8a-11eb-890e-1f4e6bb5ff54.png)
+<img width="617" alt="R" src="https://user-images.githubusercontent.com/4662568/122424170-156c7800-cfc1-11eb-8e5d-748e63022440.png">
 
 We recommend [radian](https://github.com/randy3k/radian) as a better alternative.
 
-![radian](https://user-images.githubusercontent.com/4662568/122362664-e6d3aa80-cf8a-11eb-8096-22df047ab7f9.png)
+<img width="617" alt="radian" src="https://user-images.githubusercontent.com/4662568/122424434-4d73bb00-cfc1-11eb-9141-c0fb6561a068.png">
 
 ## Sending code to R terminals
 
@@ -19,6 +19,6 @@ We recommend [radian](https://github.com/randy3k/radian) as a better alternative
 
 Each time "R: Create R terminal" is executed, a new R terminal is created. The user could switch between these R terminals, and customize the icon color and the label of each terminal.
 
-![multiple R terminals](https://user-images.githubusercontent.com/4662568/122363627-ade80580-cf8b-11eb-91aa-3c77a3002259.png)
+<img width="618" alt="R terminals" src="https://user-images.githubusercontent.com/4662568/122424572-67ad9900-cfc1-11eb-9448-9bf9413b06c3.png">
 
 ## Using self-managed R terminals
