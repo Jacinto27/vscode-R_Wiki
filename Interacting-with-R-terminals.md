@@ -22,3 +22,5 @@ Each time "R: Create R terminal" is executed, a new R terminal is created. The u
 <img width="618" alt="R terminals" src="https://user-images.githubusercontent.com/4662568/122424572-67ad9900-cfc1-11eb-9448-9bf9413b06c3.png">
 
 ## Using self-managed R terminals
+
+<img width="651" alt="radian in tmux" src="https://user-images.githubusercontent.com/4662568/122424856-9f1c4580-cfc1-11eb-8825-a4ad2b2c9251.png">
