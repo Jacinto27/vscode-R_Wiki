@@ -1,4 +1,4 @@
-## Native X11 window
+## Native plot window
 
 ## PNG file
 
