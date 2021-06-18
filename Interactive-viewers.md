@@ -1,4 +1,18 @@
+With R session watcher enabled, multiple types of viewers are supported to display tabular data, graphics, [htmlwidgets](http://www.htmlwidgets.org/) and [shiny](shiny.rstudio.com/) apps.
+
 ## Data viewer
+
+`View()` will open a tab to view the object.
+
+Object type | Viewer
+------------|-----------
+`data.frame`| table viewer
+`matrix`    | table viewer
+`list`      | list viewer
+`environment` | list viewer
+others      | text editor
+
+The table viewer supports sorting and searching.
 
 <img width="1268" alt="data-viewer" src="https://user-images.githubusercontent.com/4662568/122425148-dab70f80-cfc1-11eb-98c2-cf28a22533f5.png">
 
