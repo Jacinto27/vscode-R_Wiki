@@ -9,3 +9,5 @@
 <img width="316" alt="help pages viewer" src="https://user-images.githubusercontent.com/4662568/122624322-3f618f80-d0d2-11eb-9113-b524af861039.png">
 
 ## Package management
+
+<img width="604" alt="install package" src="https://user-images.githubusercontent.com/4662568/122624375-746de200-d0d2-11eb-9d95-d30e76bccea9.png">
