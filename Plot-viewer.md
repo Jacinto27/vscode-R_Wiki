@@ -1,4 +1,4 @@
-## Native X11/XQuartz window
+## Native X11 window
 
 ## PNG file
 
