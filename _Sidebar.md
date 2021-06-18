@@ -5,7 +5,7 @@
   * [Linux](https://github.com/Ikuyadeu/vscode-R/wiki/Installation:-Linux)
 * Setting
   * [[Extension settings]]
-  * [[https://github.com/Ikuyadeu/vscode-R/wiki/RStudio-addin-support]]
+  * [[RStudio addin support]]
   * [[Recommended extensions and configuration]]
 * Advance
   * [[Keyboard shortcuts]]
