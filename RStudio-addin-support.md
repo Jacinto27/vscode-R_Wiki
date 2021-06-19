@@ -25,7 +25,11 @@ There are two main ways to launch an addin:
 ```
 ## Enabling RStudio Addin Support
 
-To enable RStudio addin support set `options(vsc.rstudioapi = TRUE)` in your .Rprofile.
+To enable RStudio addin support set the following options in your `~/.Rprofile`:
+
+```r
+options(vsc.rstudioapi = TRUE)
+```
 
 Place the option above any call to `source()` that refers to `init.R` in the `.Rprofile`. Unless using self-managed R sessions, `init.R` should be called automatically by the extension.
 
