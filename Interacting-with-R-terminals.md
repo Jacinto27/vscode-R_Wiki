@@ -33,4 +33,17 @@ To make the session watcher attach the R session of the current R terminal, clic
 
 ## Using self-managed R terminals
 
+Self-managed R terminals could be useful if one needs one or more R sessions to be preserved so that closing the VS Code window does not  terminate the R sessions. On Linux and macOS, both [`screen`](https://www.gnu.org/software/screen/) and [`tmux`](https://github.com/tmux/tmux/wiki) could be used to preserve any number of R sessions or any other terminal programs in a customizable layout.
+
 <img width="651" alt="radian in tmux" src="https://user-images.githubusercontent.com/4662568/122424856-9f1c4580-cfc1-11eb-8825-a4ad2b2c9251.png">
+
+To make self-managed R sessions behave like those created by "R: Create R terminal", the following code should be added to `~/.Rprofile`:
+
+```r
+if (interactive() && Sys.getenv("RSTUDIO") == "") {
+  Sys.setenv(TERM_PROGRAM = "vscode")
+  source(file.path(Sys.getenv(if (.Platform$OS.type == "windows") "USERPROFILE" else "HOME"), ".vscode-R", "init.R"))
+}
+```
+
+Then starting an R terminal anywhere will request the session watcher to attach the R session.
