@@ -1,4 +1,4 @@
-## Create R terminal
+## Creating R terminal
 
 In VS Code window, press <kbd>F1</kbd> (or <kbd>Ctrl + Shift + P</kbd>) and choose "R: Create R terminal" command, then the VS Code terminal will be revealed and an R terminal will be launched.
 
