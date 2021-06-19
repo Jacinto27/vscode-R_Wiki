@@ -24,4 +24,6 @@ The help pages viewer lists several options to work with help pages, topics, and
 
 ## Package management
 
+In the help pages viewer, one can also install and remove packages. In the viewer, pressing any key will trigger the search mode so that one can easily find a package by name.
+
 <img width="604" alt="install package" src="https://user-images.githubusercontent.com/4662568/122624375-746de200-d0d2-11eb-9d95-d30e76bccea9.png">
