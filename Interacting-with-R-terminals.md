@@ -10,6 +10,10 @@ We recommend [radian](https://github.com/randy3k/radian) as a better alternative
 
 <img width="617" alt="radian" src="https://user-images.githubusercontent.com/4662568/122424434-4d73bb00-cfc1-11eb-9141-c0fb6561a068.png">
 
+If the R session watcher is enabled, then it will attach to the R session whenever a new R terminal is created. The status of the session watcher is shown in the status bar like below:
+
+![status](https://github.com/Ikuyadeu/vscode-R/blob/master/images/RStatusBarItem.png)
+
 ## Sending code to R terminals
 
 By default, if there is no active R terminal, then a new R terminal will be created before sending code to it. To always send code to the active terminal without creating a new one, turn on `r.alwaysUseActiveTerminal` in VS Code settings.
@@ -24,6 +28,8 @@ The behavior of sending code to the terminal is following:
 Each time "R: Create R terminal" is executed, a new R terminal is created. The user could switch between these R terminals, and customize the icon color and the label of each terminal.
 
 <img width="618" alt="R terminals" src="https://user-images.githubusercontent.com/4662568/122424572-67ad9900-cfc1-11eb-9448-9bf9413b06c3.png">
+
+To make the session watcher attach the R session of the current R terminal, click the status bar item "R: (not attached)" or "R: #PID" if a session is previously attached.
 
 ## Using self-managed R terminals
 
