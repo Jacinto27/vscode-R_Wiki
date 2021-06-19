@@ -12,6 +12,10 @@ We recommend [radian](https://github.com/randy3k/radian) as a better alternative
 
 ## Sending code to R terminals
 
+By default, if there is no active R terminal, then a new R terminal will be created before sending code to it. To always send code to the active terminal without creating a new one, turn on `r.alwaysUseActiveTerminal` in VS Code settings.
+
+The behavior of sending code to the terminal is following:
+
 * If a range of code is selected, then the selected code will be sent to the terminal.
 * If no code is selected, then an executable range of code will be sent to the terminal and the cursor will move to the next line.
 
