@@ -1,7 +1,4 @@
-*This experimental feature is still under development and the behavior
-**may change without notice**. Please file an issue [here](https://github.com/Ikuyadeu/vscode-R/issues) if you experience problems or have any suggestions.*
-
-An opt-in experimental R session watcher is implemented to support the following features:
+R session watcher enables the communication between vscode-R and a live R session to support the following features:
 
 * Watch any R session
 * Show value of session symbols on hover
