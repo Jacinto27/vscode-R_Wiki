@@ -26,7 +26,7 @@ Visit the links on the right for more information.
 
 * [Plot viewer](https://github.com/Ikuyadeu/vscode-R/wiki/Plot-viewer): PNG file viewer and SVG plot viewer based on [httpgd](https://github.com/nx10/httpgd).
 
-* [Webpage viewer](https://github.com/Ikuyadeu/vscode-R/wiki/Interactive-viewers#webpage-viewer): Viewing [htmlwidgets](www.htmlwidgets.org) such as interactive graphics and visual profiling results.
+* [Webpage viewer](https://github.com/Ikuyadeu/vscode-R/wiki/Interactive-viewers#webpage-viewer): Viewing [htmlwidgets](https://www.htmlwidgets.org) such as interactive graphics and [visual profiling results](https://rstudio.github.io/profvis/).
 
 * [Browser viewer](https://github.com/Ikuyadeu/vscode-R/wiki/Interactive-viewers#browser-viewer): Viewing interactive [shiny](https://shiny.rstudio.com) apps.
 
