@@ -15,6 +15,7 @@
   * [[R Session watcher]]
   * [[RStudio addin support]]
   * [[Live share collaboration]]
+* [[Package development]]
 * [[R Markdown]]
 * [[Contributing]]
 * [[FAQ]]
