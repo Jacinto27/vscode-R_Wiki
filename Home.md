@@ -10,6 +10,8 @@ Visit the links on the right for more information.
 
 * [Interacting with R terminals](https://github.com/Ikuyadeu/vscode-R/wiki/Interacting-with-R-terminals): Sending code to terminals, running multiple terminals, working with remote servers.
 
+* [Package development](https://github.com/Ikuyadeu/vscode-R/wiki/Package-development): Build, test, install, load all and other commands from devtools.
+
 * [Keyboard shortcuts](https://github.com/Ikuyadeu/vscode-R/wiki/Keyboard-shortcuts): Built-in and customizable keyboard shortcuts.
 
 * [Workspace viewer](https://github.com/Ikuyadeu/vscode-R/wiki/Sidebar-user-interface#workspace-viewer): Environment pane to show global variables in the attached R session.
