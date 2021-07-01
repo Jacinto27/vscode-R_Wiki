@@ -1,8 +1,8 @@
 * [[Getting Started]]
 * Installation
-  * [Windows](https://github.com/Ikuyadeu/vscode-R/wiki/Installation:-Windows)
-  * [macOS](https://github.com/Ikuyadeu/vscode-R/wiki/Installation:-macOS)
-  * [Linux](https://github.com/Ikuyadeu/vscode-R/wiki/Installation:-Linux)
+  * [Windows](https://github.com/REditorSupport/vscode-R/wiki/Installation:-Windows)
+  * [macOS](https://github.com/REditorSupport/vscode-R/wiki/Installation:-macOS)
+  * [Linux](https://github.com/REditorSupport/vscode-R/wiki/Installation:-Linux)
 * Configuration
   * [[Extension settings]]
   * [[Recommended extensions and configuration]]

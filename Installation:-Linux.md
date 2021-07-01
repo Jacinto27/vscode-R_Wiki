@@ -4,7 +4,7 @@ Install [vscode-R](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.
 
 If your R installation is from [CRAN](http://cran.r-project.org/mirrors.html), then the default settings should work out of the box. Otherwise, you may have to change `r.rterm.linux` to the path to your R executable, which will be executed on command `Create R Terminal`.
 
-If you are interested in the experimental features provided by [R session watcher](https://github.com/Ikuyadeu/vscode-R/wiki/R-Session-watcher), you may enable it in the VS Code settings:
+If you are interested in the experimental features provided by [R session watcher](https://github.com/REditorSupport/vscode-R/wiki/R-Session-watcher), you may enable it in the VS Code settings:
 
 ```json
 {

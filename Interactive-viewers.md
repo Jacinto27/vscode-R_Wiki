@@ -18,7 +18,7 @@ The table viewer supports sorting and searching.
 
 ## Plot viewer
 
-Graphics could be displayed in native X11/XQuartz window, or as a PNG file in VS Code window, or in a plot viewer based on [httpgd](https://github.com/nx10/httpgd) device. For more details, go to <https://github.com/Ikuyadeu/vscode-R/wiki/Plot-viewer>.
+Graphics could be displayed in native X11/XQuartz window, or as a PNG file in VS Code window, or in a plot viewer based on [httpgd](https://github.com/nx10/httpgd) device. For more details, go to <https://github.com/REditorSupport/vscode-R/wiki/Plot-viewer>.
 
 <img width="1267" alt="plot-viewer" src="https://user-images.githubusercontent.com/4662568/122425511-1eaa1480-cfc2-11eb-9d60-f7daab13c1f6.png">
 
@@ -46,6 +46,6 @@ If you encounter a problem loading a webpage in a browser viewer, you may try vi
 
 The web pages in R documentation can be viewed in the help viewer. Syntax highlighting and link navigation are supported.
 
-Help viewer could be revealed via `?symbol` in R terminal, or from the [Help pages viewer](https://github.com/Ikuyadeu/vscode-R/wiki/Sidebar-user-interface#help-pages-viewer) in the [sidebar](https://github.com/Ikuyadeu/vscode-R/wiki/Sidebar-user-interface), or via command `R: Open help for selection` in either command palette or context menu in the editor.
+Help viewer could be revealed via `?symbol` in R terminal, or from the [Help pages viewer](https://github.com/REditorSupport/vscode-R/wiki/Sidebar-user-interface#help-pages-viewer) in the [sidebar](https://github.com/REditorSupport/vscode-R/wiki/Sidebar-user-interface), or via command `R: Open help for selection` in either command palette or context menu in the editor.
 
 <img width="1268" alt="help-viewer" src="https://user-images.githubusercontent.com/4662568/122426765-18686800-cfc3-11eb-9e28-a9a7cf1eaa95.png">

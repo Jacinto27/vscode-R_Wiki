@@ -12,7 +12,7 @@ We recommend [radian](https://github.com/randy3k/radian) as a better alternative
 
 If the R session watcher is enabled, then it will attach to the R session whenever a new R terminal is created. The status of the session watcher is shown in the status bar like below:
 
-![status](https://github.com/Ikuyadeu/vscode-R/blob/master/images/RStatusBarItem.png)
+![status](https://github.com/REditorSupport/vscode-R/blob/master/images/RStatusBarItem.png)
 
 ## Sending code to R terminals
 

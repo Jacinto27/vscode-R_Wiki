@@ -4,7 +4,7 @@
 1. Install Visual Studio Code
 
 ```sh
-git clone https://github.com/Ikuyadeu/vscode-R.git
+git clone https://github.com/REditorSupport/vscode-R.git
 cd vscode-R
 yarn install # install required packages for vscode-R
 code . # run VS Code
