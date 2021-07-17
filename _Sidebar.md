@@ -7,6 +7,7 @@
   * [[Extension settings]]
   * [[Recommended extensions and configuration]]
 * Features
+  * [[R Language Service]]
   * [[Interacting with R terminals]]
   * [[Keyboard shortcuts]]
   * [[Interactive viewers]]
