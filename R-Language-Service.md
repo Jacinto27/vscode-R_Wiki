@@ -1,1 +1,1 @@
-The R language service implements the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/specifications/specification-current/) and provides a set of language analysis features.
+The R language service implements the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/specifications/specification-current/) and provides a set of language analysis features based on [langaugeserver](https://github.com/REditorSupport/languageserver) package in R.
