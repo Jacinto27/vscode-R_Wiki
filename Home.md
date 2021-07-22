@@ -1,4 +1,4 @@
-vscode-R is the R Extension for [Visual Studio Code](https://code.visualstudio.com/). The extension is mainly focused on providing user interactivity between VS Code and R sessions. To make VS Code more powerful in R scripting, it is highly recommended to also install the R language server ([languageserver](https://github.com/REditorSupport/languageserver) and [vscode-r-lsp](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r-lsp)).
+vscode-R is the R Extension for [Visual Studio Code](https://code.visualstudio.com/). The extension is mainly focused on providing language service based on static code analysis and user interactivity between VS Code and R sessions.
 
 Visit the links on the right for more information.
 
@@ -7,6 +7,8 @@ Visit the links on the right for more information.
 * Extended syntax highlighting for R, R Markdown, and R Documentation.
 
 * Snippets for R and R Markdown.
+
+* [R Language Service](https://github.com/REditorSupport/vscode-R/wiki/R-Language-Service): Code completion, function signature, symbol highlight, document outline, formatting, definition, refere
 
 * [Interacting with R terminals](https://github.com/REditorSupport/vscode-R/wiki/Interacting-with-R-terminals): Sending code to terminals, running multiple terminals, working with remote servers.
 
@@ -30,7 +32,7 @@ Visit the links on the right for more information.
 
 * [Browser viewer](https://github.com/REditorSupport/vscode-R/wiki/Interactive-viewers#browser-viewer): Viewing interactive [shiny](https://shiny.rstudio.com) apps.
 
-* [R Markdown support](https://github.com/REditorSupport/vscode-R/wiki/R-Markdown): R Markdown chunk highlighting, chunk navigation, and execute commands.
+* [R Markdown support](https://github.com/REditorSupport/vscode-R/wiki/R-Markdown): R Markdown chunk highlighting, chunk navigation, execute commands, and preview.
 
 * [RStudio add-in support](https://github.com/REditorSupport/vscode-R/wiki/RStudio-addin-support): Run supported RStudio add-ins in VS Code with a live R session.
 
