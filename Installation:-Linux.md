@@ -4,14 +4,6 @@ Install [vscode-R](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.
 
 If your R installation is from [CRAN](http://cran.r-project.org/mirrors.html), then the default settings should work out of the box. Otherwise, you may have to change `r.rterm.linux` to the path to your R executable, which will be executed on command `Create R Terminal`.
 
-If you are interested in the experimental features provided by [R session watcher](https://github.com/REditorSupport/vscode-R/wiki/R-Session-watcher), you may enable it in the VS Code settings:
-
-```json
-{
-  "r.sessionWatcher": true
-}
-```
-
 ## languageserver
 
 [languageserver](https://github.com/REditorSupport/languageserver) is an implementation of the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) for R.
@@ -29,12 +21,6 @@ or install the development version with the newest features:
 ```r
 remotes::install_github("REditorSupport/languageserver")
 ```
-
-## vscode-r-lsp
-
-Install [vscode-r-lsp](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r-lsp) in VS Code by searching `reditorsupport.r-lsp` in extension marketplace.
-
-If the R installation is from [CRAN](http://cran.r-project.org/mirrors.html), then the default settings should work out of the box. Otherwise, you may have to change `r.rpath.linux` to the path to your R executable, which will be executed to start the R Language Server as a background process.
 
 ## radian
 
