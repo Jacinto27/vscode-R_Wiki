@@ -8,14 +8,6 @@ If your R installation is from [CRAN](http://cran.r-project.org/mirrors.html) wi
 
 Then the default settings should work out of the box. Otherwise, you may have to change `r.rterm.windows` to the path to your R executable, which will be executed on command `Create R Terminal`.
 
-If you are interested in the experimental features provided by [R session watcher](https://github.com/REditorSupport/vscode-R/wiki/R-Session-watcher), you may enable it in the VS Code settings:
-
-```json
-{
-  "r.sessionWatcher": true
-}
-```
-
 ## languageserver
 
 [languageserver](https://github.com/REditorSupport/languageserver) is an implementation of the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) for R.
@@ -35,12 +27,6 @@ remotes::install_github("REditorSupport/languageserver")
 ```
 
 which requires [Rtools](https://cran.r-project.org/bin/windows/Rtools/) to build.
-
-## vscode-r-lsp
-
-Install [vscode-r-lsp](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r-lsp) in VSC ode by searching `reditorsupport.r-lsp` in extension marketplace.
-
-If the R installation is from [CRAN](http://cran.r-project.org/mirrors.html) as described in the first section, then the default settings should work out of the box. Otherwise, you may have to change `r.lsp.path` to the path to your R executable, which will be executed to start the R Language Server as a background process.
 
 ## radian
 
@@ -72,7 +58,6 @@ Then the following VS Code settings should be updated to properly use radian as 
   "r.rterm.windows": "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\radian.exe"
 }
 ```
-
 
 ## VSCode-R-Debugger
 
