@@ -12,9 +12,18 @@ Object type | Viewer
 `environment` | list viewer
 others      | text editor
 
+### Table viewer
+
 The table viewer supports sorting and searching.
 
-<img width="1268" alt="data-viewer" src="https://user-images.githubusercontent.com/4662568/122425148-dab70f80-cfc1-11eb-98c2-cf28a22533f5.png">
+<img width="1004" alt="image" src="https://user-images.githubusercontent.com/4662568/126723146-24b81ad9-44a8-402c-9d21-381ae36ed112.png">
+
+### List viewer
+
+The list viewer supports collapsing nodes.
+
+<img width="1003" alt="image" src="https://user-images.githubusercontent.com/4662568/126723222-2eb9d3ad-5f80-41ed-a9a1-2b52f156e375.png">
+
 
 ## Plot viewer
 
