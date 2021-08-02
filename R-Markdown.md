@@ -4,6 +4,7 @@ R Markdown document is supported with the following features:
 * Chunk navigation commands (Select current chunk, go to previous/next chunks, etc.)
 * Chunk execution commands (Run current chunk, run above/below chunks, etc.)
 * Rmd render commands (Knit, Knit to PDF/HTML/All)
+* Live preview rmd (as html)
 
 ## Editing R Markdown documents
 
@@ -11,7 +12,13 @@ R Markdown document is supported with the following features:
 
 ## Live rendering R Markdown documents
 
-Run the following code and a browser viewer will open with live rendering of the R Markdown document.
+You can live preview R Markdown documents by pressing the "Open Preview to Side" button when focused on a R Markdown document. 
+
+
+
+You can also preview a document by right-clicking it in the explorer and selecting preview.
+
+You can also run the following code and a browser viewer will open with live rendering of the R Markdown document.
 
 ```r
 rmarkdown::run("your-rmd-document.Rmd")
