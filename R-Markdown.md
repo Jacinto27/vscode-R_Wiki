@@ -38,6 +38,8 @@ The knit button is "smart" in that it checks the document and its workspace for 
 
 You can live preview R Markdown documents by pressing the "Open Preview to Side" button when focused on a R Markdown document. 
 
+![preview](https://user-images.githubusercontent.com/60372411/132450498-1c5fae22-6a51-4eb4-9815-08bd29a52a13.png)
+
 You can also preview a document by right-clicking it in the explorer and selecting preview.
 
 You can also run the following code and a browser viewer will open with live rendering of the R Markdown document.
