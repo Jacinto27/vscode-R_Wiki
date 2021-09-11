@@ -1,4 +1,4 @@
-R Markdown document is supported with the following features:
+R Markdown document creation is supported with the following features:
 
 * Chunk highlighting
 * Chunk navigation commands (Select current chunk, go to previous/next chunks, etc.)
@@ -36,7 +36,7 @@ The knit button is "smart" in that it checks the document and its workspace for 
 
 ## Live rendering R Markdown documents
 
-You can live preview R Markdown documents by pressing the "Open Preview to Side" button when focused on a R Markdown document. 
+You can live preview R Markdown documents by pressing the "Open Preview to Side" button when focused on a R Markdown document.
 
 ![preview](https://user-images.githubusercontent.com/60372411/132450498-1c5fae22-6a51-4eb4-9815-08bd29a52a13.png)
 
