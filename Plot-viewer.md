@@ -24,6 +24,14 @@ Then the plot viewer will fall back to the native plot window. It only takes eff
 
 <img width="926" alt="native plot window" src="https://user-images.githubusercontent.com/4662568/122624019-feb54680-d0d0-11eb-944a-3c00b7fdf556.png">
 
+## SVG in httpgd plot viewer
+
+vscode-R supports an SVG plot viewer based on httpgd. Enable `r.plot.useHttpgd` in VS Code settings.
+
+Then whenever a plot is created, a Plot viewer tab will be revealed where a number of httpgd features are natively supported.
+
+<img width="916" alt="plot viewer" src="https://user-images.githubusercontent.com/4662568/122624181-974bc680-d0d1-11eb-99a9-59a34e105ad8.png">
+
 ## SVG in httpgd webpage
 
 [httpgd](https://github.com/nx10/httpgd) is an R package to provide a graphics device that asynchronously serves SVG graphics via HTTP and WebSockets. It works well with VS Code in a browser viewer.
@@ -53,12 +61,4 @@ if (interactive() && Sys.getenv("RSTUDIO") == "") {
 <img width="915" alt="httpgd webpage" src="https://user-images.githubusercontent.com/4662568/122624135-73888080-d0d1-11eb-93e8-f94935d944cb.png">
 
 The httpgd web page supports live update on resizing, history navigation, zooming, save as png format, and some other great features.
-
-## SVG in plot viewer
-
-vscode-R supports an SVG plot viewer based on httpgd. Enable `r.plot.useHttpgd` in VS Code settings.
-
-Then whenever a plot is created, a Plot viewer tab will be revealed where a number of httpgd features are natively supported.
-
-<img width="916" alt="plot viewer" src="https://user-images.githubusercontent.com/4662568/122624181-974bc680-d0d1-11eb-99a9-59a34e105ad8.png">
 
