@@ -56,11 +56,7 @@ The httpgd web page supports live update on resizing, history navigation, zoomin
 
 ## SVG in plot viewer
 
-vscode-R supports an SVG plot viewer based on httpgd. Put the following option in `~/.Rprofile`:
-
-```r
-options(vsc.use_httpgd = TRUE)
-```
+vscode-R supports an SVG plot viewer based on httpgd. Enable `r.plot.useHttpgd` in VS Code settings.
 
 Then whenever a plot is created, a Plot viewer tab will be revealed where a number of httpgd features are natively supported.
 
