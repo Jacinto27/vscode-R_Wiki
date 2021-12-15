@@ -1,23 +1,33 @@
-Package development is supported by vscode-R, [R language server](https://github.com/REditorSupport/languageserver), and [R debugger](https://github.com/ManuelHentschel/VSCode-R-Debugger).
+Package development is supported by vscode-R,
+[R language server](https://github.com/REditorSupport/languageserver), and
+[R debugger](https://github.com/ManuelHentschel/VSCode-R-Debugger).
 
 ## Commands
 
 vscode-R mainly provides the mostly used package development commands:
 
-Title | Command | R code
-------|---------|---------
-Build package | `r.build` | `devtools::build()`
-Test package | `r.test` | `devtools::test()`
-Install package | `r.install` | `devtools::install()`
-Document | `r.document` | `devtools::document()`
-Load all | `r.loadAll` | `devtools::load_all()`
+| Title           | Command      | R code                 |
+| --------------- | ------------ | ---------------------- |
+| Build package   | `r.build`    | `devtools::build()`    |
+| Test package    | `r.test`     | `devtools::test()`     |
+| Install package | `r.install`  | `devtools::install()`  |
+| Document        | `r.document` | `devtools::document()` |
+| Load all        | `r.loadAll`  | `devtools::load_all()` |
 
-Keyboard shortcuts could be bound to these commands. See [Creating keybindings for R commands](https://github.com/REditorSupport/vscode-R/wiki/Keyboard-shortcuts#creating-keybindings-for-r-commands).
+Keyboard shortcuts could be bound to these commands. See
+[Creating keybindings for R commands](https://github.com/REditorSupport/vscode-R/wiki/Keyboard-shortcuts#creating-keybindings-for-r-commands).
 
 ## Development
 
-The [R language server](https://github.com/REditorSupport/languageserver) loads all R documents in `./R` if it detects a `NAMESPACE` file in the workspace root folder, which indicates that the workspace contains an R package. Therefore, all these R files are considered in the same workspace, sharing completions, definitions, references, and other workspace-level language features.
+The [R language server](https://github.com/REditorSupport/languageserver) loads
+all R documents in `./R` if it detects a `NAMESPACE` file in the workspace root
+folder, which indicates that the workspace contains an R package. Therefore, all
+these R files are considered in the same workspace, sharing completions,
+definitions, references, and other workspace-level language features.
 
 ## Debugging
 
-The [R debugger](https://github.com/ManuelHentschel/VSCode-R-Debugger) supports debugging the package code in the current workspace. See [Debugging R packages](https://github.com/ManuelHentschel/VSCode-R-Debugger#debugging-r-packages) for more details.
+The [R debugger](https://github.com/ManuelHentschel/VSCode-R-Debugger) supports
+debugging the package code in the current workspace. See
+[Debugging R packages](https://github.com/ManuelHentschel/VSCode-R-Debugger#debugging-r-packages)
+for more details.
