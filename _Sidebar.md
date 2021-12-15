@@ -1,22 +1,22 @@
-* [[Getting Started]]
-* Installation
-  * [Windows](https://github.com/REditorSupport/vscode-R/wiki/Installation:-Windows)
-  * [macOS](https://github.com/REditorSupport/vscode-R/wiki/Installation:-macOS)
-  * [Linux](https://github.com/REditorSupport/vscode-R/wiki/Installation:-Linux)
-* Configuration
-  * [[Extension settings]]
-  * [[Recommended extensions and configuration]]
-* Features
-  * [[R Language Service]]
-  * [[Interacting with R terminals]]
-  * [[Keyboard shortcuts]]
-  * [[Interactive viewers]]
-  * [[Sidebar user interface]]
-  * [[Plot viewer]]
-  * [[R Session watcher]]
-  * [[RStudio addin support]]
-  * [[Live share collaboration]]
-* [[Package development]]
-* [[R Markdown]]
-* [[Contributing]]
-* [[FAQ]]
+- [[Getting Started]]
+- Installation
+  - [Windows](https://github.com/REditorSupport/vscode-R/wiki/Installation:-Windows)
+  - [macOS](https://github.com/REditorSupport/vscode-R/wiki/Installation:-macOS)
+  - [Linux](https://github.com/REditorSupport/vscode-R/wiki/Installation:-Linux)
+- Configuration
+  - [[Extension settings]]
+  - [[Keyboard shortcuts]]
+  - [[Recommended extensions and configuration]]
+- Features
+  - [[R Language Service]]
+  - [[Interacting with R terminals]]
+  - [[Interactive viewers]]
+  - [[Sidebar user interface]]
+  - [[Plot viewer]]
+  - [[R Session watcher]]
+  - [[RStudio addin support]]
+  - [[Live share collaboration]]
+- [[Package development]]
+- [[R Markdown]]
+- [[Contributing]]
+- [[FAQ]]
