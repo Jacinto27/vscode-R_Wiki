@@ -62,7 +62,8 @@ Packages listed here have been verified working in VSCode.
 - `{AlignAssign}`
 - `{blogdown}`
   - Live preview in VSCode works but viewer colour theme interacts with site
-    colour theme. Choose a light theme for light site preview.
+    colour theme. Choose a light theme for light site preview or explicitly set
+    the website background color, e.g., `body {background-color: white;}`, in CSS files.
 - `{docthis}`
 - `{sinew}`
   - The interactive oxygen generator polls the active document_context, which is
