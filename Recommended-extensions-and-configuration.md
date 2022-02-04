@@ -38,8 +38,7 @@ libraries are called.
 ```dcf
 linters: with_defaults(
   object_usage_linter = NULL,
-  commented_code_linter = NULL
-)
+  commented_code_linter = NULL)
 ```
 
 See the
