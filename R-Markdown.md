@@ -50,7 +50,7 @@ This also works for R Markdown sites, where the knit button will call
 ## Live rendering R Markdown documents
 
 You can live preview R Markdown documents by pressing the "Open Preview to Side"
-button when focused on a R Markdown document.
+button when focused on an R Markdown document.
 
 ![preview](https://user-images.githubusercontent.com/60372411/132450498-1c5fae22-6a51-4eb4-9815-08bd29a52a13.png)
 
@@ -63,3 +63,7 @@ rendering of the R Markdown document.
 ```r
 rmarkdown::run("your-rmd-document.Rmd")
 ```
+
+## Live previewing rendered R Markdown documents
+
+When an R Markdown document is knit and rendered to an HTML file, [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) can be used to live preview the HTML document. It supports auto-refresh when the HTML file is updated.
