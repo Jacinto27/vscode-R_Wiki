@@ -7,6 +7,12 @@ R Markdown document creation is supported with the following features:
 - Rmd render commands (Knit, Knit to PDF/HTML/All)
 - Live preview rmd (as html)
 
+## Installing pandoc
+
+[pandoc](https://pandoc.org) is required to render R Markdown documents. Visit [Installing pandoc](https://pandoc.org/installing.html) for instructions.
+
+You may need to restart VS Code for `rmarkdown` to be able to detect `pandoc`.
+
 ## Editing R Markdown documents
 
 ![Kapture 2020-10-28 at 22 25 08](https://user-images.githubusercontent.com/4662568/97449414-99a7b780-196c-11eb-9d2e-2c8eb5804d54.gif)
