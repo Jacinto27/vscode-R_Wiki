@@ -19,8 +19,40 @@ Add to `keybindings.json`:
   {
     "key": "ctrl+shift+m",
     "command": "-workbench.actions.view.problems"
+  },
+  // RStudio keybinding for R Package development
+  {
+    "key": "ctrl+shift+b",
+    "command": "r.build",
+    "when": "resourceLangId == 'r'"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "r.check",
+    "when": "resourceLangId == 'r'"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "r.test",
+    "when": "resourceLangId == 'r'"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "r.install",
+    "when": "resourceLangId == 'r'"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "r.document",
+    "when": "resourceLangId == 'r'"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "r.loadAll",
+    "when": "resourceLangId == 'r'"
   }
 ]
+
 ```
 
 ## Removed keyboard shortcuts
