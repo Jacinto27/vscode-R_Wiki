@@ -23,7 +23,7 @@ Add to `keybindings.json`:
   // RStudio keybinding for R Package development
   {
     "key": "ctrl+shift+b",
-    "command": "r.build",
+    "command": "r.install",
     "when": "resourceLangId == 'r'"
   },
   {
