@@ -37,11 +37,6 @@ Add to `keybindings.json`:
     "when": "resourceLangId == 'r'"
   },
   {
-    "key": "ctrl+shift+b",
-    "command": "r.install",
-    "when": "resourceLangId == 'r'"
-  },
-  {
     "key": "ctrl+shift+d",
     "command": "r.document",
     "when": "resourceLangId == 'r'"
