@@ -10,9 +10,11 @@ vscode-R mainly provides the mostly used package development commands:
 | --------------- | ------------ | ---------------------- |
 | Build package   | `r.build`    | `devtools::build()`    |
 | Test package    | `r.test`     | `devtools::test()`     |
+| Check package   | `r.check`    | `devtools::check()`    |
 | Install package | `r.install`  | `devtools::install()`  |
 | Document        | `r.document` | `devtools::document()` |
 | Load all        | `r.loadAll`  | `devtools::load_all()` |
+
 
 Keyboard shortcuts could be bound to these commands. See
 [Creating keybindings for R commands](https://github.com/REditorSupport/vscode-R/wiki/Keyboard-shortcuts#creating-keybindings-for-r-commands).
