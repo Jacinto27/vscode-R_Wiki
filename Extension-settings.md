@@ -65,6 +65,11 @@ and the options for the language server's formatter and linter that are detailed
 - `r.plot.customStyleOverwrites`: path to a custom CSS file to be used when
   r.plot.defaults.colorTheme is 'vscode'. Replaces the default CSS overwrites!
 
+## Data viewer Settings
+
+- `r.session.data.rowLimit`: The maximum number of rows to be displayed in the data viewer.
+  `0` means no limit.
+
 ## R Markdown Settings
 
 - `r.rmarkdown.enableCodeLens`: enable RMarkdown CodeLens, which are inline
