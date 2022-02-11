@@ -11,8 +11,10 @@ display tabular data, graphics, [htmlwidgets](http://www.htmlwidgets.org/) and
 | `data.frame`  | table viewer |
 | `matrix`      | table viewer |
 | `list`        | list viewer  |
-| `environment` | list viewer  |
+| `environment` | table viewer |
 | others        | text editor  |
+
+And, [`Apache Arrow Table`](https://arrow.apache.org/docs/r/) will be converted to a `data.frame` and then displayed in the table viewer.
 
 ### Table viewer
 
