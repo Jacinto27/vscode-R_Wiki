@@ -42,7 +42,7 @@ linters: with_defaults(
 ```
 
 See the
-[`lintr` docs](https://github.com/REditorSupport/languageserver#services-implemented)
+[`lintr` docs](https://github.com/r-lib/lintr#lintr-file-example)
 for more configuration details and rules.
 
 ## Dots in variable/function names
