@@ -21,7 +21,7 @@ Add to `keybindings.json`:
     "command": "-workbench.actions.view.problems"
   },
 
-  // *** input indicative of r markdown code chunk
+  // input indicative of r markdown code chunk
   {
     "key": "ctrl+shift+i",
     "command": "editor.action.insertSnippet",
@@ -32,7 +32,18 @@ Add to `keybindings.json`:
     "label": "input indicative of r markdown code chunk"
   },
 
-  // ** open help panel for selection
+  // you can also input indicative of code chunk in `r` file by inserting "# %% ":
+  {
+    "key": "ctrl+shift+i",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == 'r'",
+    "args": {
+        "snippet": "$LINE_COMMENT %% "
+    },
+    "label": "input indicative of code chunk"
+  },
+
+  // open help panel for selection
   {
     "key": "f1",
     "command": "r.helpPanel.openForSelection",
