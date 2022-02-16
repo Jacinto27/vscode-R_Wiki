@@ -1,0 +1,1 @@
+[Tasks](https://code.visualstudio.com/docs/editor/tasks) in VS Code makes it much easier to automate workflows.
