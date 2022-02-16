@@ -7,13 +7,13 @@ Add to `keybindings.json`:
   {
     "key": "alt+-",
     "command": "type",
-    "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+    "when": "editorLangId == r && editorTextFocus || editorLangId == rmd && editorTextFocus",
     "args": {"text": " <- "}
   },
   {
     "key": "ctrl+shift+m",
     "command": "type",
-    "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+    "when": "editorLangId == r && editorTextFocus || editorLangId == rmd && editorTextFocus",
     "args": {"text": " %>% "}
   },
   {
