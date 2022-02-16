@@ -20,6 +20,25 @@ Add to `keybindings.json`:
     "key": "ctrl+shift+m",
     "command": "-workbench.actions.view.problems"
   },
+
+  // *** input indicative of r markdown code chunk
+  {
+    "key": "ctrl+shift+i",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == 'rmd'",
+    "args": {
+        "snippet": "```{r}\n$0\n```"
+    },
+    "label": "input indicative of r markdown code chunk"
+  },
+
+  // ** open help panel for selection
+  {
+    "key": "f1",
+    "command": "r.helpPanel.openForSelection",
+    "when": "editorTextFocus && editorLangId == 'r' || editorTextFocus && editorLangId == 'rmd'"
+  },
+
   // RStudio keybinding for R Package development
   {
     "key": "ctrl+shift+b",
