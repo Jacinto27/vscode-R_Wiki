@@ -27,7 +27,7 @@ Add to `keybindings.json`:
     "command": "editor.action.insertSnippet",
     "when": "editorTextFocus && editorLangId == 'rmd'",
     "args": {
-        "snippet": "```{r}\n$0\n```"
+        "snippet": "```{r}\n${TM_SELECTED_TEXT}$0\n```"
     },
     "label": "input indicative of r markdown code chunk"
   },
