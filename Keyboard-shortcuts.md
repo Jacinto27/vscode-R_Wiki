@@ -33,6 +33,7 @@ Add to `keybindings.json`:
   },
 
   // you can also input indicative of code chunk in `r` file by inserting "# %% ":
+  // specifics in `https://github.com/REditorSupport/vscode-R/pull/662`
   {
     "key": "ctrl+shift+i",
     "command": "editor.action.insertSnippet",
