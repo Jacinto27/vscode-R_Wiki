@@ -101,9 +101,4 @@ enables the plot viewer based on httpgd in VS Code.
    install.packages("httpgd")
    ```
 
-2. Enabled httpgd-based plot viewer by inserting the following option in your
-   `~/.Rprofile`:
-
-   ```r
-   options(vsc.use_httpgd = TRUE)
-   ```
+2. Enable `r.plot.useHttpgd` in VS Code settings.
