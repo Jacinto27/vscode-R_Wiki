@@ -7,6 +7,22 @@ R Markdown document creation is supported with the following features:
 - Rmd render commands (Knit, Knit to PDF/HTML/All)
 - Live preview rmd (as html)
 
+## File association
+
+By default, `Rmd` files are open as Markdown documents. To enable R Markdown features, you need to associate `*.Rmd` files with `rmd` language. Add an entry Item `*.Rmd` and Value `rmd` in the VS Code settings editor:
+
+<img width="848" alt="image" src="https://user-images.githubusercontent.com/4662568/161364066-996eac59-e3c1-400a-a382-ec90fca2a9f0.png">
+
+or directly update `settings.json` with the following:
+
+```json
+{
+   "files.associations": {
+     "*.Rmd": "rmd"
+  }
+}
+```
+
 ## Installing pandoc
 
 [pandoc](https://pandoc.org) is required to render R Markdown documents. Visit [Installing pandoc](https://pandoc.org/installing.html) for instructions.
