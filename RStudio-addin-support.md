@@ -8,7 +8,7 @@ manipulation API is supported, although with some notable concessions:
 There are two main ways to launch an addin:
 
 1. via the addin picker, launched from the command palette as "R: Launch RStudio
-   Addin", or via a keybinding to `r.lauchAddinPicker`.
+   Addin", or via a keybinding to `r.launchAddinPicker`.
 2. via a direct keybinding to the addin R functions. These can be found by
    looking in the `inst/rstudion/addins.dcf` file of the
    addin-providing-package's source. For example to bind a key to Reprex the
