@@ -6,6 +6,7 @@ R Markdown document creation is supported with the following features:
 - Chunk execution commands (Run current chunk, run above/below chunks, etc.)
 - Rmd render commands (Knit, Knit to PDF/HTML/All)
 - Live preview rmd (as html)
+- Create new draft from a template
 
 ## File association
 
