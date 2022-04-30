@@ -90,3 +90,14 @@ rmarkdown::run("your-rmd-document.Rmd")
 ## Live previewing rendered R Markdown documents
 
 When an R Markdown document is knit and rendered to an HTML file, [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) can be used to live preview the HTML document. It supports auto-refresh when the HTML file is updated.
+
+## Templates
+
+You can run "R Markdown: New Draft" from the command palettes to create a new draft from an R Markdown template.
+
+The following is a (incomplete) list of packages that provide R Markdown templates:
+
+* [rmarkdown](https://rmarkdown.rstudio.com/gallery.html)
+* [rticles](https://pkgs.rstudio.com/rticles/index.html)
+* [tufte](https://rstudio.github.io/tufte/)
+* [prettydoc](https://prettydoc.statr.me/)
