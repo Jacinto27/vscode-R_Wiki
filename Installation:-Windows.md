@@ -1,12 +1,12 @@
 ## vscode-R
 
 Install
-[vscode-R](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r) in VS
-Code by searching `ikuyadeu.r` in extension marketplace.
+[vscode-R](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r) in VS
+Code by searching `reditorsupport.r` in extension marketplace.
 
 If your R installation is from [CRAN](http://cran.r-project.org/mirrors.html)
 with default installation settings, especially **Save version number in
-registry** is enabled as the following image shows:
+registry** is enabled, as the following image shows:
 
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/4662568/76700772-ca94ee00-66f5-11ea-97bc-f89afeaf1bd3.png">
 
