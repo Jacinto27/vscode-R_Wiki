@@ -1,8 +1,8 @@
 ## vscode-R
 
 Install
-[vscode-R](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r) in VS
-Code by searching `ikuyadeu.r` in extension marketplace.
+[vscode-R](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r) in VS
+Code by searching `reditorsupport.r` in extension marketplace.
 
 If your R installation is from [CRAN](http://cran.r-project.org/mirrors.html),
 then the default settings should work out of the box. Otherwise, you may have to
