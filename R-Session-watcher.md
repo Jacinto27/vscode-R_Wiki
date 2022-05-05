@@ -35,9 +35,9 @@ R session:
 3. Append the following code to the file:
 
    ```r
-    source(file.path(Sys.getenv(
-      if (.Platform$OS.type == "windows") "USERPROFILE" else "HOME"
-    ), ".vscode-R", "init.R"))
+   if (interactive() && Sys.getenv("RSTUDIO") == "") {
+     source(file.path(Sys.getenv(if (.Platform$OS.type == "windows") "USERPROFILE" else "HOME"), ".vscode-R", "init.R"))
+   }
    ```
 
 4. Restart or Reload Window in VSCode
@@ -46,7 +46,7 @@ If the workspace folder you open in VSCode already has a `.Rprofile`, you need
 to append the code above in this file too because `~/.Rprofile` will not be
 executed when a local `.Rprofile` is found.
 
-The script only works with environment variable `TERM_PROGRAM=vscode`. the
+The script only works with environment variable `TERM_PROGRAM=vscode`. The
 script will not take effect with R sessions started in a `tmux` or `screen`
 window that does not have it, unless this environment variable is manually set
 before sourcing `init.R`, for example, you may insert a line
