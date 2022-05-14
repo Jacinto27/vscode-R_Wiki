@@ -11,13 +11,13 @@ renv::init(project = "~/R/vscode-R")
 Start R from the folder (`file.expand("~/R/vscode-R")`) and install required packages:
 
 ```
-Rscript -e "renv::install(c('languageserver'))"
+renv::install(c("languageserver"))
 ```
 
-Get the library path:
+Print the library path:
 
 ```
-Rscript -e 'renv::paths$library()'
+renv::paths$library()
 ```
 
 ```
