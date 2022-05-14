@@ -7,6 +7,7 @@
   - [[Extension settings]]
   - [[Keyboard shortcuts]]
   - [[Recommended extensions and configuration]]
+  - [[Working with renv-enabled projects]]
 - Features
   - [[R Language Service]]
   - [[Interacting with R terminals]]
