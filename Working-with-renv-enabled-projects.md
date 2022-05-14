@@ -31,3 +31,11 @@ Write the library path in VS Code settings:
   "/Users/user/R/vscode-R/renv/library/R-4.2/x86_64-apple-darwin17.0"
 ]
 ```
+
+Then the following R processes running in the background will be launched with the configured library paths appended to `.libPaths()` on startup:
+
+* R language server
+* R help server
+* R aliases
+
+And the code editing features and help viewer could continue to work without necessary packages being installed into the project library.
