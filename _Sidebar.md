@@ -5,6 +5,7 @@
   - [Linux](https://github.com/REditorSupport/vscode-R/wiki/Installation:-Linux)
 - Configuration
   - [[Extension settings]]
+  - [[R options]]
   - [[Keyboard shortcuts]]
   - [[Recommended extensions and configuration]]
   - [[Working with renv-enabled projects]]
