@@ -8,6 +8,8 @@ Add to `keybindings.json`:
     "key": "alt+-",
     "command": "type",
     "when": "editorLangId == r && editorTextFocus || editorLangId == rmd && editorTextFocus",
+    // if you want using quarto, try this
+    // "when": "editorLangId =~ /r|rmd|qmd/ && editorTextFocus",
     "args": {"text": " <- "}
   },
   {
