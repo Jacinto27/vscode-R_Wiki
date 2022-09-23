@@ -78,6 +78,12 @@ Add to `keybindings.json`:
     "key": "ctrl+shift+l",
     "command": "r.loadAll",
     "when": "resourceLangId == 'r'"
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "r.runCommand",
+    "when": "editorTextFocus && editorLangId == 'r'",
+    "args": ".vsc.browser(httpgd::hgd_url(), viewer = \"Beside\")"
   }
 ]
 
@@ -155,12 +161,6 @@ Here are some example entries from `keybindings.json`:
     "command": "r.runCommandWithEditorPath",
     "when": "editorTextFocus",
     "args": "rmarkdown::render(\"$$\", output_format = rmarkdown::html_document(), output_dir = \".\", clean = TRUE)"
-  },
-  {
-    "key": "ctrl+alt+p",
-    "command": "r.runCommand",
-    "when": "editorTextFocus && editorLangId == 'r'",
-    "args": ".vsc.browser(httpgd::hgd_url(), viewer = \"Beside\")"
   }
 ]
 ```
