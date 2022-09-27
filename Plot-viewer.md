@@ -59,8 +59,7 @@ To show the original httpgd viewer in a webpage in VS Code, put the following
 code in `~/.Rprofile`:
 
 ```r
-if (interactive() && Sys.getenv("RSTUDIO") == "") {
-  Sys.setenv(TERM_PROGRAM = "vscode")
+if (interactive() && Sys.getenv("TERM_PROGRAM") == "vscode") {
   if ("httpgd" %in% .packages(all.available = TRUE)) {
     options(vsc.plot = FALSE)
     options(device = function(...) {
