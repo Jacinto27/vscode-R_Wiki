@@ -14,11 +14,11 @@ User's `settings.json` file in VSCode can be configured to format on save:
 ```json
 {
   "[r]": {
-    "editor.defaultFormatter": "reditorsupport.r",
+    "editor.defaultFormatter": "REditorSupport.r",
     "editor.formatOnSave": true
   },
   "[rmd]": {
-    "editor.defaultFormatter": "reditorsupport.r",
+    "editor.defaultFormatter": "REditorSupport.r",
     "editor.formatOnSave": true
   }
 }
