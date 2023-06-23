@@ -42,6 +42,6 @@ linters: list(
   namespace_linter())
 ```
 
-Visit [the page](https://lintr.r-lib.org/reference/index.html#individual-linters) for a complete list of supported linters.
+Visit [Individual linters](https://lintr.r-lib.org/reference/index.html#individual-linters) for a complete list of supported linters.
 
 Visit the [Configuring linters](https://lintr.r-lib.org/articles/lintr.html#configuring-linters) for a complete guide to customizing lintr config regarding the list of linters and file or line exclusions.
