@@ -7,6 +7,7 @@
   - [[Extension settings]]
   - [[R options]]
   - [[Keyboard shortcuts]]
+  - [[Code linting]]
   - [[Recommended extensions and configuration]]
   - [[Working with renv-enabled projects]]
 - Features
