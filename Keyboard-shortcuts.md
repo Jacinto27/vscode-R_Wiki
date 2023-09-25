@@ -53,6 +53,14 @@ Add to `keybindings.json`:
     "when": "editorTextFocus && editorLangId == 'r' || editorTextFocus && editorLangId == 'rmd'"
   },
 
+  // read yaml header parameters into `params` when editing an Rmarkdown file
+  {
+    "key": "ctrl+shift+p",
+    "command": "r.runCommandWithEditorPath",
+    "args": "params <- rmarkdown::yaml_front_matter(\"$$\")$params |> lapply(\\(x) if (is.list(x)) x$value else x)",
+    "when": "editorTextFocus && editorLangId == 'rmd'"
+  },
+
   // RStudio keybinding for R Package development
   {
     "key": "ctrl+shift+b",
