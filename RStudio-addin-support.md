@@ -20,7 +20,7 @@ There are two main ways to launch an addin:
   "key": "ctrl+;",
   "command": "r.runCommand",
   "when": "editorTextFocus",
-  "args": "reprex::reprex_selection"
+  "args": "reprex::reprex_selection()"
 }
 ```
 
