@@ -54,23 +54,25 @@ gadget open up alongside the active text editor.
 
 Packages listed here have been verified working in VSCode.
 
-- `{datapasta}` dev version
-- `{reprex}`
-- `{fnmate}`
-- `{equisse}`
-- `{remedy}`
 - `{AlignAssign}`
 - `{blogdown}`
   - Live preview in VSCode works but viewer colour theme interacts with site
     colour theme. Choose a light theme for light site preview or explicitly set
     the website background color, e.g., `body {background-color: white;}`, in CSS files.
+- `{citr}`
+- `{codegrip}`
+  - currently only `addin_reshape()`
+- `{datapasta}` dev version
 - `{docthis}`
+- `{equisse}`
+- `{fnmate}`
+- `{gistfo}`
+- `{prefixer}`
+- `{remedy}`
+- `{reprex}`
 - `{sinew}`
   - The interactive oxygen generator polls the active document_context, which is
     glitchy but can work.
-- `{prefixer}`
-- `{gistfo}`
-- `{citr}`
 - `{styler}`
 
 ## Implemented functions
