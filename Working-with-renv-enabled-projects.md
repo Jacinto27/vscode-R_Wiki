@@ -8,7 +8,7 @@ Suppose we want to maintain such a library at `~/R/vscode-R` using renv.
 renv::init(project = "~/R/vscode-R")
 ```
 
-Start R from the folder (`file.expand("~/R/vscode-R")`) and install required packages:
+Start R from the folder (`path.expand("~/R/vscode-R")`) and install required packages:
 
 ```r
 renv::install(c("languageserver"))
