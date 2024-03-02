@@ -95,10 +95,10 @@ remotes::install_github("ManuelHentschel/vscDebugger")
 device that asynchronously serves SVG graphics via HTTP and WebSockets. It
 enables the plot viewer based on httpgd in VS Code.
 
-1. Install `httpgd` from CRAN
+1. Install `httpgd` from CRAN/r-universe
 
    ```r
-   install.packages("httpgd")
+   install.packages("httpgd", repos = c("https://nx10.r-universe.dev", "https://cran.r-project.org"))
    ```
 
 2. Enable `r.plot.useHttpgd` in VS Code settings.
