@@ -90,7 +90,7 @@ enables the plot viewer based on httpgd in VS Code.
 1. Install `httpgd` from CRAN
 
    ```r
-   install.packages("httpgd")
+   install.packages("httpgd", repos = c("https://nx10.r-universe.dev", "https://cran.r-project.org"))
    ```
 
 2. Enable `r.plot.useHttpgd` in VS Code settings.
