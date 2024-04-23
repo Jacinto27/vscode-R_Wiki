@@ -60,7 +60,7 @@ code in `~/.Rprofile`:
 
 ```r
 if (interactive() && Sys.getenv("TERM_PROGRAM") == "vscode") {
-  if ("httpgd" %in% .packages(all.available = TRUE)) {
+  if (requireNamespace("httpgd", quietly = TRUE)) {
     options(vsc.plot = FALSE)
     options(device = function(...) {
       httpgd::hgd(silent = TRUE)
