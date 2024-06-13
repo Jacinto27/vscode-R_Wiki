@@ -1,6 +1,6 @@
 [renv](https://rstudio.github.io/renv/articles/renv.html) is a package that helps manage library paths to help isolate your project’s R dependencies for better reproducibility of the project.
 
-Since renv uses a private library per project, vscode-R will not work if required packages (e.g. `languageserver` and `jsonlite`) are not installed into the project library. Some users might find it useful to maintain a standalone, minimal user library to provide these packages.
+Since `renv` uses a private library per project, vscode-R will not work if required packages (e.g. `languageserver` and `jsonlite`) are not installed into the project library. Some users might find it useful to maintain a standalone, minimal user library to provide these packages.
 
 Suppose we want to maintain such a library at `~/R/vscode-R` using renv.
 
@@ -39,3 +39,13 @@ Then the following R processes running in the background will be launched with t
 * R aliases
 
 And the code editing features and help viewer could continue to work without necessary packages being installed into the project library.
+
+---
+
+When working with `Rcpp`, a good demo is provided at [vscode-rcpp-demo](https://github.com/renkun-ken/vscode-rcpp-demo). If you're working with `renv`, the `includePath` property needs to manually be pointed at your project's `R_LIBS_USER` directory. Exempli gratia: 
+
+```
+/Users/user/Library/Caches/org.R-project.R/R/renv/library/vscode-rcpp-demo-e5908179/macos/R-4.4/aarch64-apple-darwin20
+# becomes
+/Users/user/Library/Caches/org.R-project.R/R/renv/library/vscode-rcpp-demo-e5908179/macos/R-4.4/aarch64-apple-darwin20/*/include/
+```
