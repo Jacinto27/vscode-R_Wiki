@@ -42,7 +42,7 @@ And the code editing features and help viewer could continue to work without nec
 
 ---
 
-When working with `Rcpp`, a good demo is provided at [vscode-rcpp-demo](https://github.com/renkun-ken/vscode-rcpp-demo). If you're working with `renv`, the `includePath` property needs to manually be pointed at your project's `R_LIBS_USER` directory. Exempli gratia: 
+When working with `Rcpp`, a good demo is provided at [vscode-rcpp-demo](https://github.com/renkun-ken/vscode-rcpp-demo). If you're working with `renv`, the `includePath` property in `.vscode/c_cpp_properties.json` needs to manually be pointed at your project's `R_LIBS_USER` directory. Exempli gratia: 
 
 ```
 /Users/user/Library/Caches/org.R-project.R/R/renv/library/vscode-rcpp-demo-e5908179/macos/R-4.4/aarch64-apple-darwin20
