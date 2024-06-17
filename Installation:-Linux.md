@@ -102,3 +102,11 @@ enables the plot viewer based on httpgd in VS Code.
    ```
 
 2. Enable `r.plot.useHttpgd` in VS Code settings.
+
+## lintr
+
+R code linting (diagnostics) is provided by [lintr](https://github.com/r-lib/lintr) via language server and is enabled by default. It provides syntax error warnings as well as style guidelines.
+
+1. Lintr is enabled by default, to configure your linting behavior, create a `.lintr` file in your home directory.
+
+2. Write your linting configuration to that file, for more information and configuration suggestions visit [the wiki](https://github.com/REditorSupport/vscode-R/wiki/Code-linting)
